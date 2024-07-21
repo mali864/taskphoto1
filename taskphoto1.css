@@ -1,0 +1,123 @@
+*{
+   margin: 0px;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+.container{
+    width: 1100px;
+    height: 550px;
+    background-color: aliceblue;
+    border:4px solid gray;
+    margin: 30px auto 30px auto;
+}
+.smallcontainer{
+    width: 1095px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid gray;
+    margin: 70px 0px 200px 0px;
+
+}
+.white{
+    width: 999px;
+    height: 170px;
+    background-color: white;
+    border: 2px solid gray;
+    margin: 10px 40px 6px 40px;
+    position: relative;
+
+}
+
+    .form{
+        width: 200px;
+        height: 150px;
+        background-color: orange;
+        border-radius: 5px;
+        position: absolute;
+        right: 10px;
+        margin-top: 10px;
+
+    }
+    input[type="text"]{
+        padding: 5px;
+        margin-bottom: 5px ;
+        border-radius: 5px;
+        position: relative;
+        left: 10px;
+        
+    }
+    input[type="submit"] {
+        background-color:greenyellow ;
+        position: relative;
+        left: 10px;
+    }
+    label{
+        position: relative;
+        left: 10px;
+    }
+    .purple1{
+        width:300px ;
+        height: 150px;
+        border: 2px solid purple;
+        background-color: blueviolet;
+        position: absolute;
+        right: 160px;
+        bottom:120px;
+        
+        
+        
+    }
+    .purple2{
+        width:300px ;
+        height: 150px;
+        border: 2px solid purple;
+        background-color: blueviolet;
+        position: absolute;
+        right: 520px;
+        bottom:120px;
+        
+        
+    }
+    .purple3{
+        width:300px ;
+        height: 150px;
+        border: 2px solid purple;
+        background-color: blueviolet;
+        position: absolute;
+        left: 170px;
+        bottom:120px;
+        
+    }
+    .little1{
+        width: 60px;
+        height: 60px;
+        background-color: rgb(180, 129, 180);
+        border: 2px solid purple;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+    .gray{
+        width: 1090px;
+        height: 50px;
+        background-color: gray;
+        border: black;
+        position: relative;
+    }
+    .subscribe-form{
+        position: absolute;
+        right: 0px;
+    }
+    .subscribe-button {
+        background-color: #0b0b0c;
+        border: none;
+        color: white;
+        padding: 10px 12px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 8px;
+        
+
+      }
+    
